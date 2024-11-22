@@ -114,6 +114,7 @@ A company maintains employee performance data in a text file(performance.txt) th
 
 # Example Usage
 if __name__ == "__main__":
+    
     input_file = "performance.txt"  
     output_file = "report.txt"     
     generate_performance_report(input_file, output_file)
