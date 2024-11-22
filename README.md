@@ -64,10 +64,12 @@ A company maintains employee performance data in a text file(performance.txt) th
 
 
 def generate_performance_report(input_file, output_file):
+    
     """
     Reads employee performance data from the input file, analyzes it to find top performers 
     and average scores, and writes a detailed report to the output file.
     """
+    
     try:
         with open(input_file, 'r') as infile:
             lines = infile.readlines()
