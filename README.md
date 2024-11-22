@@ -6,30 +6,30 @@ File Handling is a mechanism for creating, reading, updating and deleting files.
 
 1. Opening a file : Files can be opened using the built-in open() function.
 
-   # file = open('filename.txt','mode')
+   file = open('filename.txt','mode')
    mode can be read(r), write(w), append(a) and create(x).
 
 2. Reading a file : Use read(), readline(), or readlines() to fetch file content.
 
-   # with open('data.txt','r') as file:
-   # content = file.read()
-   # print(content)
+   with open('data.txt','r') as file:
+   content = file.read()
+   print(content)
 
 3. Writing to a file : Use write() or writelines() to write data.
 
-   # with open('data.txt','w') as file:
-   # file.write("Hello, World!")
+   with open('data.txt','w') as file:
+   file.write("Hello, World!")
 
 4. Appending to a file : Opens the file in append mode to add data without overwriting existing content.
 
-   # with open('data.txt','a') as file:
-   # file.write("Hello again")
+   with open('data.txt','a') as file:
+   file.write("Hello again")
 
 5. Closing a file : Ensures all resources tied to the file are released.
 
-   # file = open('filename.txt','r')
-   # print(file.read())
-   # file.close()
+   file = open('filename.txt','r')
+   print(file.read())
+   file.close()
 
 # advantages of file handling
 
@@ -51,7 +51,7 @@ File Handling is a mechanism for creating, reading, updating and deleting files.
 6. Accessing and processing large files can be slower than querying data from a database.
 7. Files require regular maintenance for updates, archiving, and deletion which can be labor-intensive.
 
-# code snippet example(Employee Performance Report)
+# code snippet example : Employee Performance Report
 
 A company maintains employee performance data in a text file(performance.txt) that contains detials such as empid, name and monthly performance score. The company needs to extract and validate the performance data, identify top performers and calculate the average performance score, and save the report in a file(report.txt), including top performers and the average score.
 
