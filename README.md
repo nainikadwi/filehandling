@@ -63,7 +63,8 @@ File Handling is a mechanism for creating, reading, updating and deleting files.
 A company maintains employee performance data in a text file(performance.txt) that contains detials such as empid, name and monthly performance score. The company needs to extract and validate the performance data, identify top performers and calculate the average performance score, and save the report in a file(report.txt), including top performers and the average score.
 
 
-# def generate_performance_report(input_file, output_file):
+
+def generate_performance_report(input_file, output_file):
     
     """
     Reads employee performance data from the input file, analyzes it to find top performers 
@@ -113,8 +114,8 @@ A company maintains employee performance data in a text file(performance.txt) th
         print(f"An error occurred: {e}")
 
 # Example Usage
-if __name__ == "__main__":
-    
+
+if __name__ == "__main__":    
     input_file = "performance.txt"  
     output_file = "report.txt"     
     generate_performance_report(input_file, output_file)
