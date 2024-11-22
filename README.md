@@ -13,23 +13,29 @@ File Handling is a mechanism for creating, reading, updating and deleting files.
 3. Reading a file : Use read(), readline(), or readlines() to fetch file content.
 
    with open('data.txt','r') as file:
+
    content = file.read()
+
    print(content)
 
-4. Writing to a file : Use write() or writelines() to write data.
+5. Writing to a file : Use write() or writelines() to write data.
 
    with open('data.txt','w') as file:
+
    file.write("Hello, World!")
 
-5. Appending to a file : Opens the file in append mode to add data without overwriting existing content.
+7. Appending to a file : Opens the file in append mode to add data without overwriting existing content.
 
    with open('data.txt','a') as file:
+
    file.write("Hello again")
 
-6. Closing a file : Ensures all resources tied to the file are released.
+9. Closing a file : Ensures all resources tied to the file are released.
 
    file = open('filename.txt','r')
+
    print(file.read())
+
    file.close()
 
 # advantages of file handling
