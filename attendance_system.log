@@ -1,0 +1,7 @@
+2024-11-26 07:20:55,415 - INFO - attendance_records.csv created successfully.
+2024-11-26 07:20:55,415 - INFO - Attendance Management System Started.
+2024-11-26 07:21:08,584 - INFO - Attendance logged for Employee 1002 (nainika): Present
+2024-11-26 07:21:10,902 - INFO - Displaying all attendance records:
+2024-11-26 07:21:10,902 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-26 07:21:10,902 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
+2024-11-26 07:21:14,963 - INFO - Exiting the Attendance Management System. Goodbye!
