@@ -9,10 +9,8 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-# File name for attendance CSV
 ATTENDANCE_FILE = "attendance_records.csv"
 
-# Function to initialize the attendance file
 def initialize_file():
     """
     Ensures the attendance file is created with a header if it doesn't exist.
@@ -25,7 +23,6 @@ def initialize_file():
     except FileExistsError:
         logging.info(f"{ATTENDANCE_FILE} already exists.")
 
-# Function to log attendance
 def log_attendance(employee_id, name, status):
     """
     Logs an employee's attendance in the CSV file.
@@ -41,7 +38,6 @@ def log_attendance(employee_id, name, status):
         logging.error(f"Failed to log attendance for Employee {employee_id} ({name}): {e}")
         print("An error occurred while logging attendance. Please try again.")
 
-# Function to view attendance logs
 def view_attendance():
     """
     Reads and displays the attendance records from the CSV file.
@@ -68,7 +64,6 @@ def view_attendance():
         logging.error(f"Error reading attendance logs: {e}")
         print("An error occurred while viewing attendance logs. Please try again.")
 
-# Main function for user interaction
 def main():
     """
     Main function to handle user input for attendance management.
