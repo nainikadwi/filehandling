@@ -5,3 +5,62 @@
 2024-11-26 07:21:10,902 - INFO - Timestamp, Employee ID, Name, Status
 2024-11-26 07:21:10,902 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
 2024-11-26 07:21:14,963 - INFO - Exiting the Attendance Management System. Goodbye!
+2024-11-28 05:38:04,406 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-28 05:38:04,406 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:38:10,212 - INFO - Displaying all attendance records:
+2024-11-28 05:38:10,213 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-28 05:38:10,213 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
+2024-11-28 05:38:10,213 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:38:12,507 - INFO - Displaying all attendance records:
+2024-11-28 05:38:12,507 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-28 05:38:12,507 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
+2024-11-28 05:38:12,507 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:38:30,215 - INFO - Attendance logged successfully: ['2024-11-28 05:38:30', '234', 'hu', 'present']
+2024-11-28 05:38:30,215 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:38:34,300 - INFO - Displaying all attendance records:
+2024-11-28 05:38:34,301 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-28 05:38:34,301 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
+2024-11-28 05:38:34,301 - INFO - 2024-11-28 05:38:30, 234, hu, present
+2024-11-28 05:38:34,301 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:42:54,631 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-28 05:42:54,632 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:43:07,959 - INFO - Attendance logged successfully: ['2024-11-28 05:43:07', '203', 'jhbnjfde', 'absent']
+2024-11-28 05:43:07,959 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-28 05:43:11,200 - INFO - Displaying all attendance records:
+2024-11-28 05:43:11,200 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-28 05:43:11,201 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
+2024-11-28 05:43:11,201 - INFO - 2024-11-28 05:38:30, 234, hu, present
+2024-11-28 05:43:11,201 - INFO - 2024-11-28 05:43:07, 203, jhbnjfde, absent
+2024-11-28 05:43:11,201 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
