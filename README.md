@@ -57,3 +57,22 @@ File Handling is a mechanism for creating, reading, updating and deleting files.
 5. File systems lack built-in recovery features, making it harder to retrieve data lost due to accident deletion or corruption.
 6. Accessing and processing large files can be slower than querying data from a database.
 7. Files require regular maintenance for updates, archiving, and deletion which can be labor-intensive.
+
+# code description
+
+This Python code implements a menu-driven attendance management system that allows real-time logging and viewing of employee attendance. It uses CSV files to store attendance data and logging to record all application activities, errors, and user interactions for traceability and debugging.
+
+The key features include:
+	1.	Logging Attendance: Employees can log their attendance with details such as Employee ID, Name, and Status (e.g., Present/Absent).
+	2.	Viewing Attendance: Users can view all recorded attendance records, which are displayed in the console and logged to a log file.
+	3.	Exception Handling: Specific error handling for scenarios like file-related issues and invalid input.
+	4.	Log File for Audit: All actions and errors are recorded in attendance_system.log for tracking and debugging.
+
+# code objective
+
+The objective of this code is to provide a simple, user-friendly, and reliable attendance management application that can:
+	•	Serve real-world company needs for maintaining attendance records in a structured manner.
+	•	Use logging to maintain a permanent audit trail of user interactions and system errors.
+	•	Utilize exception handling to ensure robustness and user guidance in error scenarios.
+
+This approach ensures the system is efficient, traceable, and ready for real-life business use cases.
