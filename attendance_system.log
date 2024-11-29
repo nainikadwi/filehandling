@@ -1,7 +1,277 @@
-2024-11-26 07:20:55,415 - INFO - attendance_records.csv created successfully.
-2024-11-26 07:20:55,415 - INFO - Attendance Management System Started.
-2024-11-26 07:21:08,584 - INFO - Attendance logged for Employee 1002 (nainika): Present
-2024-11-26 07:21:10,902 - INFO - Displaying all attendance records:
-2024-11-26 07:21:10,902 - INFO - Timestamp, Employee ID, Name, Status
-2024-11-26 07:21:10,902 - INFO - 2024-11-26 07:21:08, 1002, nainika, Present
-2024-11-26 07:21:14,963 - INFO - Exiting the Attendance Management System. Goodbye!
+2024-11-29 10:22:53,173 - INFO - attendance_records.csv created successfully.
+2024-11-29 10:22:53,175 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 10:22:53,178 - INFO - Attendance logged successfully: ['2024-11-29 10:22:53', '101', 'John Doe', 'Present']
+2024-11-29 10:22:53,179 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 10:22:53,180 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:23:28,399 - INFO - Attendance logged successfully: ['2024-11-29 10:23:28', '34t', 'ninika', 'present']
+2024-11-29 10:23:28,399 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:25:10,817 - INFO - Attendance logged successfully: ['2024-11-29 10:25:10', '3245', 'nakl', 'present']
+2024-11-29 10:25:10,818 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:48:52,646 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 10:48:52,646 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 10:48:52,647 - INFO - Attendance logged successfully: ['2024-11-29 10:48:52', '101', 'John Doe', 'Present']
+2024-11-29 10:48:52,647 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 10:48:52,647 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:52:56,095 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 10:52:56,096 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 10:52:56,096 - INFO - Attendance logged successfully: ['2024-11-29 10:52:56', '101', 'John Doe', 'Present']
+2024-11-29 10:52:56,097 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 10:52:56,097 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:53:00,281 - INFO - Displaying all attendance records:
+2024-11-29 10:53:00,281 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 10:53:00,282 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 10:53:00,282 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 10:53:08,748 - INFO - Attendance logged successfully: ['2024-11-29 10:53:08', '344', 'dwi', 'present']
+2024-11-29 10:53:08,749 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 11:34:54,774 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 11:34:54,774 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 11:34:54,774 - INFO - Attendance logged successfully: ['2024-11-29 11:34:54', '101', 'John Doe', 'Present']
+2024-11-29 11:34:54,775 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 11:34:54,775 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 11:35:56,542 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 11:35:56,542 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 11:35:56,543 - INFO - Attendance logged successfully: ['2024-11-29 11:35:56', '101', 'John Doe', 'Present']
+2024-11-29 11:35:56,543 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 11:35:56,543 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 11:38:20,124 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 11:38:20,124 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 11:38:20,124 - INFO - Attendance logged successfully: ['2024-11-29 11:38:20', '101', 'John Doe', 'Present']
+2024-11-29 11:38:20,125 - INFO - Test case 2 passed: Attendance logged correctly.
+2024-11-29 11:38:20,125 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:02:24,997 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 12:02:24,999 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 12:02:24,999 - ERROR - Test case 2 failed: name 'timedelta' is not defined
+2024-11-29 12:02:24,999 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:02:55,901 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 12:02:55,902 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 12:02:55,902 - INFO - Attendance logged successfully: ['2024-11-29 17:32:55', '101', 'John Doe', 'Present']
+2024-11-29 12:02:55,902 - ERROR - Test case 2 failed: Attendance log not found in the file!
+2024-11-29 12:02:55,902 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:03:12,496 - INFO - Attendance logged successfully: ['2024-11-29 17:33:12', '3959', 'dwive', 'present']
+2024-11-29 12:03:12,496 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:03:15,144 - INFO - Displaying all attendance records:
+2024-11-29 12:03:15,144 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 12:03:15,144 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 10:53:08, 344, dwi, present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 11:34:54, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 11:35:56, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 11:38:20, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 17:32:55, 101, John Doe, Present
+2024-11-29 12:03:15,145 - INFO - 2024-11-29 17:33:12, 3959, dwive, present
+2024-11-29 12:03:15,145 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:39:31 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 12:09:31,934 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 17:39:31 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 12:09:31,935 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 17:39:31 - INFO - Attendance logged successfully: ['2024-11-29 17:39:31', '101', 'John Doe', 'Present']
+2024-11-29 12:09:31,935 - INFO - Attendance logged successfully: ['2024-11-29 17:39:31', '101', 'John Doe', 'Present']
+2024-11-29 17:39:31 - ERROR - Test case 2 failed: Attendance log not found in the file!
+2024-11-29 12:09:31,935 - ERROR - Test case 2 failed: Attendance log not found in the file!
+2024-11-29 17:39:31 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:09:31,936 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:39:42 - INFO - Attendance logged successfully: ['2024-11-29 17:39:42', '82771', 'yah', 'present']
+2024-11-29 12:09:42,956 - INFO - Attendance logged successfully: ['2024-11-29 17:39:42', '82771', 'yah', 'present']
+2024-11-29 17:39:42 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:09:42,957 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:39:43 - ERROR - Invalid input! Please enter a number. Error: invalid literal for int() with base 10: ''
+2024-11-29 12:09:43,163 - ERROR - Invalid input! Please enter a number. Error: invalid literal for int() with base 10: ''
+2024-11-29 17:39:43 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:09:43,163 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:39:44 - INFO - Displaying all attendance records:
+2024-11-29 12:09:44,688 - INFO - Displaying all attendance records:
+2024-11-29 17:39:44 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 12:09:44,689 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 12:09:44,689 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 12:09:44,689 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 12:09:44,689 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 17:39:44 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 12:09:44,689 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 12:09:44,689 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 10:53:08, 344, dwi, present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 10:53:08, 344, dwi, present
+2024-11-29 17:39:44 - INFO - 2024-11-29 11:34:54, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 11:34:54, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 11:35:56, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 11:35:56, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 11:38:20, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 11:38:20, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 17:32:55, 101, John Doe, Present
+2024-11-29 12:09:44,690 - INFO - 2024-11-29 17:32:55, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 17:33:12, 3959, dwive, present
+2024-11-29 12:09:44,691 - INFO - 2024-11-29 17:33:12, 3959, dwive, present
+2024-11-29 17:39:44 - INFO - 2024-11-29 17:39:31, 101, John Doe, Present
+2024-11-29 12:09:44,691 - INFO - 2024-11-29 17:39:31, 101, John Doe, Present
+2024-11-29 17:39:44 - INFO - 2024-11-29 17:39:42, 82771, yah, present
+2024-11-29 12:09:44,691 - INFO - 2024-11-29 17:39:42, 82771, yah, present
+2024-11-29 17:39:44 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 12:09:44,691 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:42:04 - INFO - attendance_records.csv already exists. Error: [Errno 17] File exists: 'attendance_records.csv'
+2024-11-29 17:42:04 - INFO - Test case 1 passed: File created and header is correct.
+2024-11-29 17:42:04 - INFO - Attendance logged successfully: ['2024-11-29 17:42:04', '101', 'John Doe', 'Present']
+2024-11-29 17:42:04 - ERROR - Test case 2 failed: Attendance log not found in the file!
+2024-11-29 17:42:04 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:42:07 - INFO - Displaying all attendance records:
+2024-11-29 17:42:07 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 10:53:08, 344, dwi, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 11:34:54, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 11:35:56, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 11:38:20, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 17:32:55, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 17:33:12, 3959, dwive, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 17:39:31, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 2024-11-29 17:39:42, 82771, yah, present
+2024-11-29 17:42:07 - INFO - 2024-11-29 17:42:04, 101, John Doe, Present
+2024-11-29 17:42:07 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:42:14 - INFO - Attendance logged successfully: ['2024-11-29 17:42:14', '4992', 'shwjw', 'present']
+2024-11-29 17:42:14 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
+2024-11-29 17:42:15 - INFO - Displaying all attendance records:
+2024-11-29 17:42:15 - INFO - Timestamp, Employee ID, Name, Status
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:22:53, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:23:28, 34t, ninika, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:25:10, 3245, nakl, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 15:58:02, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 15:58:14, 2466, nainka, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:48:52, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:52:56, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 10:53:08, 344, dwi, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 11:34:54, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 11:35:56, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 11:38:20, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:32:55, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:33:12, 3959, dwive, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:39:31, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:39:42, 82771, yah, present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:42:04, 101, John Doe, Present
+2024-11-29 17:42:15 - INFO - 2024-11-29 17:42:14, 4992, shwjw, present
+2024-11-29 17:42:15 - INFO - 
+--- Attendance System ---
+1. Log Attendance
+2. View Attendance
+3. Exit
