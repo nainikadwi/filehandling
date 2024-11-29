@@ -127,6 +127,31 @@ def main():
         None
     """
     initialize_file()
+    # Test case 1: Test file creation
+    try:
+        with open(ATTENDANCE_FILE, 'r') as file:
+            first_row = next(csv.reader(file))
+        assert first_row == ["Timestamp", "Employee ID", "Name", "Status"], "File header is incorrect!"
+        logging.info("Test case 1 passed: File created and header is correct.")
+    except Exception as e:
+        logging.error(f"Test case 1 failed: {e}")
+
+    # Test case 2: Test logging attendance
+    try:
+        employee_id = "101"
+        name = "John Doe"
+        status = "Present"
+        data = [datetime.now().strftime('%Y-%m-%d %H:%M:%S'), employee_id, name, status]
+        log_attendance(employee_id, name, status)
+
+        with open(ATTENDANCE_FILE, 'r') as file:
+            rows = list(csv.reader(file))
+        assert data in rows, "Attendance log not found in the file!"
+        logging.info("Test case 2 passed: Attendance logged correctly.")
+    except Exception as e:
+        logging.error(f"Test case 2 failed: {e}")
+
+    # Menu-driven interface for the user
     while True:
         try:
             logging.info("\n--- Attendance System ---\n1. Log Attendance\n2. View Attendance\n3. Exit")
